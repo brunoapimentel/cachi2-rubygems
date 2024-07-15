@@ -6,6 +6,7 @@ WORKDIR /app
 
 COPY Gemfile .
 COPY Gemfile.lock .
+COPY tmp.gemspec .
 
 RUN bundle install --local
 
