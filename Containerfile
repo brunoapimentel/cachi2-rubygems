@@ -7,6 +7,6 @@ WORKDIR /app
 COPY Gemfile .
 COPY Gemfile.lock .
 
-RUN . /app/cachi2.env && bundle install --local
+RUN bundle install --local
 
 CMD ["rails", "-v"]
