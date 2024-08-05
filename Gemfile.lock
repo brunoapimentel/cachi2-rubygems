@@ -11,6 +11,11 @@ PATH
     tmp (0.1.2)
 
 GEM
+  remote: http://rubygems.org/
+  specs:
+    mygem (0.0.1)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (6.1.7)
@@ -177,6 +182,7 @@ PLATFORMS
 
 DEPENDENCIES
   json-schema!
+  mygem!
   nokogiri (~> 1.16)
   rails (= 6.1.7)
   tmp!
